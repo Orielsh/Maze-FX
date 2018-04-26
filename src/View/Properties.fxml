@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="401.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.PropertiesController">
+   <children>
+      <Button fx:id="cancel" layoutX="502.0" layoutY="324.0" mnemonicParsing="false" text="Cancel" />
+      <Button fx:id="apply" layoutX="31.0" layoutY="324.0" mnemonicParsing="false" text="Apply" />
+      <ComboBox fx:id="generatingAlgorithm" layoutX="277.0" layoutY="45.0" prefHeight="39.0" prefWidth="302.0" />
+      <Label layoutX="31.0" layoutY="51.0" text="Maze Generator" />
+      <Label layoutX="31.0" layoutY="99.0" prefHeight="27.0" prefWidth="160.0" text="Solving Algorithm" />
+      <ComboBox fx:id="searchingAlgorithm"  layoutX="277.0" layoutY="93.0" prefHeight="39.0" prefWidth="302.0" />
+      <Label layoutX="31.0" layoutY="159.0" prefHeight="27.0" prefWidth="224.0" text="Thread-Pool Capacity &gt;=2" />
+      <TextField fx:id="input" layoutX="509.0" layoutY="153.0" prefHeight="39.0" prefWidth="70.0" />
+   </children>
+</AnchorPane>

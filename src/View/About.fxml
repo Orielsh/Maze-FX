@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="262.0" prefWidth="228.0" stylesheets="@About.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AboutController">
+   <children>
+      <ImageView fx:id="image1" fitHeight="150.0" fitWidth="200.0" layoutX="119.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/logo.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="21.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version 1.0">
+         <effect>
+            <Glow level="0.45" />
+         </effect>
+      </Text>
+      <Text layoutX="14.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creators:" />
+      <Text layoutX="14.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oriel Shmuel &amp; Shachar Eliasy" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+.root{
+-fx-background-image: url("resources/backround.jpg");
+-fx-background-size: 1000 1000;
+ -fx-background-position: center center;
+
+}
+
+Button {
+    -fx-background-image: url("resources/button.png");
+    -fx-background-radius: 16.4, 15;
+    -fx-background-insets: -1.4, 0;
+    -fx-border-radius: 18;
+    -fx-border-width: 3;
+    -fx-background-size: 200 200;
+     -fx-background-position: center center;
+
+
+
+}

@@ -1,0 +1,4 @@
+.root{
+    -fx-background-image: url("resources/Background.jpg");
+    -fx-background-size: 290 320;
+}

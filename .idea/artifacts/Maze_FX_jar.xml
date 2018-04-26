@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Maze-FX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Maze_FX_jar</output-path>
+    <root id="archive" name="Maze-FX.jar">
+      <element id="module-output" name="Maze-FX" />
+      <element id="library" level="project" name="Maze" />
+    </root>
+  </artifact>
+</component>
